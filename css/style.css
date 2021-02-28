@@ -1,0 +1,118 @@
+/*margin rules*/
+body{
+
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+/* start header */
+
+.header .navbar {
+    background-color: #252f31;
+    color: #fff;
+    overflow: hidden;
+    text-transform:capitalize;
+}
+
+.header .navbar h2 {
+    float: left;
+    }
+.header .navbar h2 span{color: #2ecc71;}
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+.header .navbar ul li {
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.header .navbar ul li:hover{color:#2ecc71;}
+.header .slider {
+    height: 600px;
+    background-image: url('../c14.jpeg');
+    background-size:cover; /*css3*/
+    -webkit-background-size:cover; /*css3*/
+    -moz-background-size:cover; /*css3*/
+    -o-background-size:cover; /*css3*/
+
+}
+.header .slider .intro {
+    padding-top: 200px;
+    text-align: center;
+    color: #fff;
+}
+.header .slider .intro h2{
+    margin: 0 auto;
+    font-size: 50px;
+    width: 500px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    padding: 5px 0;
+}
+.header .slider .intro button {
+    background:none;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    font-weight: bold;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+/*End Header */
+/*Start Parts*/
+.parts {
+    overflow: hidden;
+    padding-top:40px;
+    padding-bottom: 50px;
+}
+.parts .part {
+    float: left;
+    width: 33.333%;
+    height: 200px;
+   
+
+}
+.parts .part h3{
+    text-transform: capitalize;0
+    color: #555;
+}
+.parts .part p{
+    text-align: justify;
+    padding: 0 25px 0 0;
+    line-height: 1.7;
+    color: #888;
+}
+/*End parts*/
+/*Start Info*/
+
+.info h2{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 10px;
+    color: #888;
+    border-bottom: 3px solid #888;
+    border-top: 3px solid #888;
+}
+.info .vedio video{
+    width: 1170px;
+    }
+    /*End info*/
+    /*Start footer*/
+    .footer {
+        padding: 15px;
+        background-color: #252f31;
+        color: #fff;
+     }
+     .footer a{
+    color: #fff;
+    font-size: 20px;
+         
+     }
